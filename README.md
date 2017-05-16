@@ -20,7 +20,7 @@ The app stores the review list in sharedPreference for later use. (e.g if the us
 Clone or Download the repository, unzip if needed. Import the project on Android Studio, wait for it to build and run it on your preffered device or emulator.
 
 # What's missing
-UnitTest
+UnitTest.
 Refactor of some code into Util classes. 
-
+More meaninful error handling. 
 

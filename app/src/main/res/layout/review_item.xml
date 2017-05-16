@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <TextView
+        android:id="@+id/review_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        tools:text="Interesting"/>
+
+    <RatingBar
+        android:id="@+id/review_rating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:isIndicator="true"
+        android:numStars="5"/>
+
+    <TextView
+        android:id="@+id/review_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        tools:text="The number of steps (up \u0026amp; down) is far more than ever expected; a bit challenging at times. Except near end of tour, finally a place to sit. Group a bit larger than hoped. Tour guide obviously well versed on Templehof and that is appreciated. I learned far more about Templehof than I ever imagined.\nIt was a challenge finding check-in location. We walked a fair distance around property before finding GAT. Maybe walking directions from the nearest U-Bahn stop."/>
+
+    <TextView
+        android:id="@+id/review_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textColor="@android:color/darker_gray"
+        tools:text="Luis - Berlin - Monday, 15th May 2017"/>
+</LinearLayout>
